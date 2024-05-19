@@ -45,7 +45,7 @@ if recv3[:3] != '250':
 
 # Аутентификация
 username = "kcv204@gmail.com"
-password = "bxnv ytdn cckl illt"
+password = "password"
 
 authCommand = "AUTH LOGIN\r\n"
 clientSocket.send(authCommand.encode())
